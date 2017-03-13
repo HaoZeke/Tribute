@@ -35,3 +35,13 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Jekyll Stuff
+.sass-cache
+.idea
+.jekyll-metadata
+_site
+public
+src/assets/bundle.js
+*.map
+css/*.js

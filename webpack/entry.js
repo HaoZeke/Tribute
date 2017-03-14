@@ -1,7 +1,5 @@
 console.log("Hello, world!")
 
-import theaterJS from 'theaterjs';
-
 /*
  * TheaterJS, a typing effect mimicking human behavior.
  *
@@ -9,6 +7,8 @@ import theaterJS from 'theaterjs';
  * https://github.com/Zhouzi/TheaterJS
  *
  */
+
+import theaterJS from 'theaterjs';
 
 var theater = theaterJS()
 
@@ -49,3 +49,19 @@ theater
   .addScene('vader:Come with me. ', 800)
   .addScene('vader:It is the only way.', 2000)
   .addScene(theater.replay.bind(theater))
+
+/*
+ * WebFontLoader, added control when using linked fonts via @font-face
+ *
+ * Github repository: 
+ * https://github.com/typekit/webfontloader
+ *
+ */
+
+    var WebFont = require('webfontloader');
+
+  WebFont.load({
+    google: {
+      families: ['Cutive', 'Droid Serif']
+    }
+  });

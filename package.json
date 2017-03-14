@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "server": "webpack-dev-server",
-    "test": "webpack && bundle exec jekyll serve",
+    "test": "webpack && ./.scripts/clean && bundle exec jekyll serve  --incremental",
     "dist": "webpack --config webpack.config.prod.babel.js && ./.scripts/clean && bundle exec jekyll build"
   },
   "dependencies": {

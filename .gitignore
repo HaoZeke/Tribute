@@ -44,4 +44,4 @@ _site
 public
 src/assets/bundle.js
 *.map
-css/*.js
+src/assets/css/*.js

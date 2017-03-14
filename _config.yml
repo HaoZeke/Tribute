@@ -19,8 +19,8 @@ title: Tribute
 email: HaoZeke@yandex.com
 description: > # this means to ignore newlines until "baseurl:"
   This is a simple template of a tribute.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Tribute/" # the subpath of your site, e.g. /blog
+url: "https://haozeke.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: HaoZeke
 github_username:  HaoZeke
 

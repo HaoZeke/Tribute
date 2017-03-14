@@ -68,6 +68,7 @@ let config = {
     ]
   },
   plugins: [
+    new webpack.optimize.UglifyJsPlugin(),
     extractStyles,
     extractHtml
   ]

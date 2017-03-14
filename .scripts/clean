@@ -1,0 +1,7 @@
+#!/bin/bash
+rm -rf public
+cd src
+find . -name "*.map"  -exec rm -f {} \;
+cd assets/css
+find . -name "*.js"  -exec rm -f {} \;
+cd ../../

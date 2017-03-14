@@ -4,12 +4,13 @@
   "scripts": {
     "server": "webpack-dev-server",
     "test": "webpack && bundle exec jekyll serve",
-    "dist": "webpack --config webpack.config.prod.babel.js && bundle exec jekyll build"
+    "dist": "webpack --config webpack.config.prod.babel.js && ./.scripts/clean && bundle exec jekyll build"
   },
   "dependencies": {
     "postcss-cssnext": "^2.9.0",
     "postcss-import": "^9.1.0",
-    "theaterjs": "^3.1.0"
+    "theaterjs": "^3.1.0",
+    "webfontloader": "^1.6.27"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",

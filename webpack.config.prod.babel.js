@@ -43,6 +43,7 @@ let config = {
       },
       {
         test: /\.scss$/,
+        exclude: /node_modules\/*/,
         use: extractStyles.extract({
           use: [
             {
@@ -58,7 +59,8 @@ let config = {
               loader: 'sass-loader',
               options: {
                 includePaths: [
-                path.resolve(__dirname, 'node_modules/sanitize.css/')
+                path.resolve(__dirname, 'node_modules/sanitize.css/'),
+                path.resolve(__dirname, 'node_modules/bulma/')
                 ]
               }
             }
